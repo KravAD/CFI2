@@ -1,4 +1,4 @@
 package interaccionVisitantes;
 
-public class TourCetaceos {
+public class TourCetaceos extends tour
 }

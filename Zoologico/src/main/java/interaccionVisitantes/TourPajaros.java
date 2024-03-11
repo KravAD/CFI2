@@ -1,4 +1,4 @@
 package interaccionVisitantes;
 
-public class TourPajaros {
+public class TourPajaros extends tour{
 }
