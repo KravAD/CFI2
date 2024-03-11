@@ -10,4 +10,12 @@ public class SistemaSeguridad {
         this.camaras = new ArrayList<>();
         this.sensores = new ArrayList<>();
     }
+
+    public void añadirCamara(camara camara) {
+        this.camaras.add(camara);
+    }
+
+    public void añadirsensor(sensor sensor) {
+        this.sensores.add(sensor);
+    }
 }
