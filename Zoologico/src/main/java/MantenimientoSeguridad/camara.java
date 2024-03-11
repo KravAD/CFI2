@@ -7,4 +7,12 @@ public class camara extends ElementoSeguridad{
         super(lugar);
         this.calidad = calidad;
     }
+
+    public String getCalidad() {
+        return calidad;
+    }
+
+    public void setCalidad(String calidad) {
+        this.calidad = calidad;
+    }
 }

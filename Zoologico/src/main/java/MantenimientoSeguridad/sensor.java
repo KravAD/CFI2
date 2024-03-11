@@ -7,4 +7,12 @@ public class sensor extends ElementoSeguridad{
         super(lugar);
         this.sensibilidad = sensibilidad;
     }
+
+    public int getSensibilidad() {
+        return sensibilidad;
+    }
+
+    public void setSensibilidad(int sensibilidad) {
+        this.sensibilidad = sensibilidad;
+    }
 }
