@@ -1,6 +1,6 @@
 package animales;
 
-public class animales {
+abstract class animales {
     private String especie;
     private String nombre;
     private int edad;
@@ -10,4 +10,8 @@ public class animales {
         this.nombre = nombre;
         this.edad = edad;
     }
+
+
+
 }
+
