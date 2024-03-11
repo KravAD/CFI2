@@ -10,4 +10,28 @@ private boolean limpieza;
         this.humedad = humedad;
         this.limpieza = limpieza;
     }
+
+    public int getTemperatura() {
+        return temperatura;
+    }
+
+    public void setTemperatura(int temperatura) {
+        this.temperatura = temperatura;
+    }
+
+    public int getHumedad() {
+        return humedad;
+    }
+
+    public void setHumedad(int humedad) {
+        this.humedad = humedad;
+    }
+
+    public boolean isLimpieza() {
+        return limpieza;
+    }
+
+    public void setLimpieza(boolean limpieza) {
+        this.limpieza = limpieza;
+    }
 }
