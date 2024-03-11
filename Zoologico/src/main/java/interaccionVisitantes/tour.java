@@ -12,6 +12,12 @@ public class tour {
         this.animales = animales;
     }
 
-    
+    public void recorrerTour() {
+        System.out.println("Información del hábitat:");
+        System.out.println(habitats.getInfo());
+        System.out.println("Información del animal:");
+        System.out.println(animales.getInfo());
+
+    }
 
 }
