@@ -2,8 +2,8 @@ package administrarRecursos;
 
 public class Equipamiento extends Recurso{
     private String tipo;
-    public Equipamiento(String nombre, int cantidad, String descripcion, String tipo) {
-        super(nombre, cantidad, descripcion);
+    public Equipamiento(String nombre, int cantidad, String proveedor, String tipo) {
+        super(nombre, cantidad, proveedor);
         this.tipo = tipo;
     }
 

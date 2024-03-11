@@ -3,12 +3,12 @@ package administrarRecursos;
 public class Recurso {
     private String nombre;
     private int cantidad;
-    private String descripcion;
+    private String proveedor;
 
-    public Recurso(String nombre, int cantidad, String descripcion) {
+    public Recurso(String nombre, int cantidad, String proveedor) {
         this.nombre = nombre;
         this.cantidad = cantidad;
-        this.descripcion = descripcion;
+        this.proveedor = proveedor;
     }
 
     public String getNombre() {
@@ -27,11 +27,11 @@ public class Recurso {
         this.cantidad = cantidad;
     }
 
-    public String getDescripcion() {
-        return descripcion;
+    public String getProveedor() {
+        return proveedor;
     }
 
-    public void setDescripcion(String descripcion) {
-        this.descripcion = descripcion;
+    public void setProveedor(String proveedor) {
+        this.proveedor = proveedor;
     }
 }
