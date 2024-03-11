@@ -19,4 +19,10 @@ public class Inventario {
     public void sustraerAlimento(Alimento alimento) {
         alimentos.remove(alimento);
     }
+    public void añadirMedicina(Medicina medicina) {
+        medicinas.add(medicina);
+    }
+    public void sustraerMedicina(Medicina medicina) {
+        medicinas.remove(medicina);
+    }
 }
