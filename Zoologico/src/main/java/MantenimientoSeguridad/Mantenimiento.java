@@ -7,4 +7,12 @@ public class Mantenimiento extends Cuidar{
         super(nombre, descripcion,fechaInicio, estado);
         this.constancia = constancia;
     }
+
+    public String getConstancia() {
+        return constancia;
+    }
+
+    public void setConstancia(String constancia) {
+        this.constancia = constancia;
+    }
 }

@@ -8,4 +8,12 @@ public class RepararUrgente extends Cuidar{
         super(nombre, descripcion, fechaInicio, estado);
         this.priorridad = priorridad;
     }
+
+    public String getPriorridad() {
+        return priorridad;
+    }
+
+    public void setPriorridad(String priorridad) {
+        this.priorridad = priorridad;
+    }
 }
