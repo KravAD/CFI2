@@ -7,4 +7,12 @@ public class Mamifero extends animales{
         super(nombre, nombre, salud);
         this.pelo = pelo;
     }
+
+    public String getPelo() {
+        return pelo;
+    }
+
+    public void setPelo(String pelo) {
+        this.pelo = pelo;
+    }
 }

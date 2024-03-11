@@ -7,4 +7,12 @@ public class Pajaro extends animales{
         super(nombre, nombre, salud);
         this.plumaje = plumaje;
     }
+
+    public String getPlumaje() {
+        return plumaje;
+    }
+
+    public void setPlumaje(String plumaje) {
+        this.plumaje = plumaje;
+    }
 }
