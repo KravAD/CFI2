@@ -34,4 +34,9 @@ private boolean limpieza;
     public void setLimpieza(boolean limpieza) {
         this.limpieza = limpieza;
     }
+
+    public String getInfo() {
+        return "Temperatura: " + this.temperatura + " Humedad: " + this.humedad + " Limpieza: " + this.limpieza;
+    }
+    
 }
