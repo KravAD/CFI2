@@ -38,5 +38,5 @@ private boolean limpieza;
     public String getInfo() {
         return "Temperatura: " + this.temperatura + " Humedad: " + this.humedad + " Limpieza: " + this.limpieza;
     }
-    
+
 }
