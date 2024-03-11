@@ -34,5 +34,9 @@ abstract class animales {
     public void setSalud(int salud) {
         this.salud = salud;
     }
+
+    public String getInfo(){
+        return "Nombre: " + nombre + "\nAlimento: " + alimento + "\nSalud: " + salud + "\n";
+    }
 }
 
