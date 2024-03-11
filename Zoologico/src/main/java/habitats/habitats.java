@@ -39,4 +39,6 @@ private boolean limpieza;
         return "Temperatura: " + this.temperatura + " Humedad: " + this.humedad + " Limpieza: " + this.limpieza;
     }
 
+
+
 }
