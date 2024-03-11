@@ -2,6 +2,8 @@ package administrarRecursos;
 import java.util.ArrayList;
 import java.util.List;
 
+
+
 public class Inventario {
     private List<Alimento> alimentos;
     private List<Medicina> medicinas;
@@ -31,4 +33,15 @@ public class Inventario {
     public void sustraerEquipamiento(Equipamiento equipamiento) {
         equipamientos.remove(equipamiento);
     }
+    public int checkCantidadAlimento(String nombre) {
+        int cantidad = 0;
+        for (Alimento alimento : alimentos) {
+            if (alimento.getNombre().equals(nombre)) {
+                cantidad += alimento.getCantidad();
+            }
+        }
+        return cantidad;
+    }
+
+    
 }
