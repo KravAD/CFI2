@@ -13,5 +13,10 @@ public class Inventario {
         this.equipamientos = new ArrayList<>();
     }
 
-    
+    public void añadirAlimento(Alimento alimento) {
+        alimentos.add(alimento);
+    }
+    public void sustraerAlimento(Alimento alimento) {
+        alimentos.remove(alimento);
+    }
 }
