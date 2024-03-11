@@ -1,6 +1,6 @@
 package animales;
 
-abstract class animales {
+public class animales {
     private String nombre;
     private String alimento;
     private int salud;
