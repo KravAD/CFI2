@@ -42,6 +42,15 @@ public class Inventario {
         }
         return cantidad;
     }
+    public int verificarCantidadMedicina(String nombre) {
+        int cantidad = 0;
+        for (Medicina medicina : medicinas) {
+            if (medicina.getNombre().equals(nombre)) {
+                cantidad += medicina.getCantidad();
+            }
+        }
+        return cantidad;
+    }
 
-    
+
 }
