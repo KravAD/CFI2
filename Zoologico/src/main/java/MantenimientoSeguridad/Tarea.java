@@ -2,13 +2,13 @@ package MantenimientoSeguridad;
 import java.util.Date;
 
 
-public class Cuidar {
+public class Tarea {
     private String nombre;
     private String descripcion;
     private Date fechaInicio;
     private String estado;
 
-    public Cuidar(String nombre, String descripcion, Date fechaInicio, String estado) {
+    public Tarea(String nombre, String descripcion, Date fechaInicio, String estado) {
         this.nombre = nombre;
         this.descripcion = descripcion;
         this.fechaInicio = fechaInicio;

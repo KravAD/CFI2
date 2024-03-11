@@ -1,7 +1,7 @@
 package MantenimientoSeguridad;
 import java.util.Date;
 
-public class RepararUrgente extends Cuidar{
+public class RepararUrgente extends Tarea{
     private String priorridad;
 
     public RepararUrgente(String nombre, String descripcion, Date fechaInicio, String estado, String priorridad) {
