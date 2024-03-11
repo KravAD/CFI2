@@ -1,7 +1,9 @@
 package administrarRecursos;
 
 public class Alimento extends Recurso{
-    public Alimento(String nombre, int cantidad, String descripcion) {
+    private String tipo;
+    public Alimento(String nombre, int cantidad, String descripcion,String tipo) {
         super(nombre, cantidad, descripcion);
+        this.tipo = tipo;
     }
 }
