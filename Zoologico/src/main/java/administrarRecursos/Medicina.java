@@ -6,4 +6,12 @@ public class Medicina extends Recurso{
         super(nombre, cantidad, descripcion);
         this.uso = uso;
     }
+
+    public String getUso() {
+        return uso;
+    }
+
+    public void setUso(String uso) {
+        this.uso = uso;
+    }
 }

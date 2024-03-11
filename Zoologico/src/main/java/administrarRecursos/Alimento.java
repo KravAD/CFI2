@@ -6,4 +6,12 @@ public class Alimento extends Recurso{
         super(nombre, cantidad, descripcion);
         this.tipo = tipo;
     }
+
+    public String getTipo() {
+        return tipo;
+    }
+
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
+    }
 }
