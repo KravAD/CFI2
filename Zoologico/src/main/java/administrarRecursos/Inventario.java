@@ -25,4 +25,10 @@ public class Inventario {
     public void sustraerMedicina(Medicina medicina) {
         medicinas.remove(medicina);
     }
+    public void añadirEquipamiento(Equipamiento equipamiento) {
+        equipamientos.add(equipamiento);
+    }
+    public void sustraerEquipamiento(Equipamiento equipamiento) {
+        equipamientos.remove(equipamiento);
+    }
 }
