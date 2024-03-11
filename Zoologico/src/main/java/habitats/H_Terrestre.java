@@ -7,6 +7,6 @@ public class H_Terrestre extends habitats{
         super(temperatura, humedad, limpieza);
         this.nombre = nombre;
     }
-    
+
 }
 
