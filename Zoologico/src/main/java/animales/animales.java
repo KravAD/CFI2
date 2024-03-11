@@ -1,20 +1,38 @@
 package animales;
 
 abstract class animales {
-    private String especie;
     private String nombre;
-    private int edad;
+    private String alimento;
+    private int salud;
 
-    public animales(String especie, String nombre, int edad) {
-        this.especie = especie;
+    public animales(String nombre, String alimento, int salud) {
         this.nombre = nombre;
-        this.edad = edad;
+        this.alimento = alimento;
+        this.salud = salud;
     }
 
+    public String getNombre() {
+        return nombre;
+    }
 
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
 
+    public String getAlimento() {
+        return alimento;
+    }
 
+    public void setAlimento(String alimento) {
+        this.alimento = alimento;
+    }
 
+    public int getSalud() {
+        return salud;
+    }
 
+    public void setSalud(int salud) {
+        this.salud = salud;
+    }
 }
 

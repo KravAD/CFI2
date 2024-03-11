@@ -2,7 +2,7 @@ package animales;
 
 public class Terrestres extends animales{
 
-    public Terrestres(String especie, String nombre, int edad) {
-        super(especie, nombre, edad);
+    public Terrestres(String nombre, String alimento, int salud) {
+        super(nombre, nombre, salud);
     }
 }

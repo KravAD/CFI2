@@ -1,7 +1,8 @@
 package animales;
 
 public class Volador extends animales{
-    public Volador(String especie, String nombre, int edad) {
-        super(especie, nombre, edad);
+
+    public Volador(String nombre, String alimento, int salud) {
+        super(nombre, nombre, salud);
     }
 }
