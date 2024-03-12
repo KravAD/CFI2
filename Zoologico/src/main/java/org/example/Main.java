@@ -106,7 +106,6 @@ public class Main {
     }
 
     public static void gestionDeHabitats() {
-        // Instancias y métodos de GestionDeHabitats
         H_Terrestre terrestre = new H_Terrestre(25, 50, false, 20);
         H_Acuatico acuatico = new H_Acuatico(10, 80, true, 100);
         H_Aviario aviario = new H_Aviario(22, 60, true, 30);
@@ -128,7 +127,6 @@ public class Main {
     }
 
     public static void cuidadoDeAnimales() {
-        // Instancias y métodos de CuidadoDeAnimales
         Cetaceo pez = new Cetaceo("Delfin", "peces", 80, "Si");
         Pajaro ave = new Pajaro("Pelicano", "peces", 100, "blanco");
         Mamifero mamifero = new Mamifero("", "hierba", 100, "Corto");
@@ -147,20 +145,16 @@ public class Main {
     }
 
     public static void administracionDeRecursos() {
-        // Crear instancias de Alimento, Medicina y Equipamiento
         Alimento alimento = new Alimento("Manzanas", 100, "Frutas Martinez", "Frutas");
         Medicina medicina = new Medicina("Antibioticos", 50, "Farmaceutica SB", "Para infecciones");
         Equipamiento equipamiento = new Equipamiento("Jaulas", 10, "Proteccion ASD", "Jaulas para ciervos");
 
-        // Crear una instancia de Inventario
         Inventario inventario = new Inventario();
 
-        // Agregar los recursos al inventario
         inventario.añadirAlimento(alimento);
         inventario.añadirMedicina(medicina);
         inventario.añadirEquipamiento(equipamiento);
 
-        // Verificar la cantidad de un recurso específico
         int cantidadAlimento = inventario.checkCantidadAlimento("Manzanas");
         System.out.println("Cantidad de Manzanas: " + cantidadAlimento);
 
@@ -170,34 +164,27 @@ public class Main {
         int cantidadEquipamiento = inventario.checkCantidadEquipamiento("Jaulas");
         System.out.println("Cantidad de Jaulas: " + cantidadEquipamiento);
 
-        // Eliminar un recurso del inventario
         inventario.sustraerAlimento(alimento);
         inventario.sustraerMedicina(medicina);
         inventario.sustraerEquipamiento(equipamiento);
     }
 
     public static void mantenimientoYSeguridad() {
-        // Crear una tarea de mantenimiento
         Mantenimiento mantenimiento = new Mantenimiento("Limpieza de jaulas", "Limpieza de jaulas de ciervos", new Date(), "regular", "Baja");
 
-        // Crear una tarea de reparación urgente
         RepararUrgente reparacionUrgente = new RepararUrgente("Reparación de cerca", "Reparación de cerca de acuario de delfines", new Date(), "deteriorable", "Alta");
 
-        // Crear un sistema de mantenimiento y agregar las tareas
         registroTarea sistemaMantenimiento = new registroTarea();
         sistemaMantenimiento.agregarTareaMantenimiento(mantenimiento);
         sistemaMantenimiento.agregarTareaReparacionUrgente(reparacionUrgente);
 
-        // Crear dispositivos de seguridad
         camara camara = new camara("Entrada principal", "1080p");
-        sensor sensorMovimiento = new sensor("Jaula de ciervos", 2);
+        sensor sensorMovimiento = new sensor("Jaula de ciervos", 1);
 
-        // Crear un sistema de seguridad y agregar los dispositivos
         SistemaSeguridad sistemaSeguridad = new SistemaSeguridad();
         sistemaSeguridad.añadirCamara(camara);
         sistemaSeguridad.añadirsensor(sensorMovimiento);
 
-        // Crear un sistema de mantenimiento y agregar las tareas
         sistemaMantenimiento = new registroTarea();
         sistemaMantenimiento.agregarTareaMantenimiento(mantenimiento);
         sistemaMantenimiento.agregarTareaReparacionUrgente(reparacionUrgente);
